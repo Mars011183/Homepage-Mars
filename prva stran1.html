@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine Homepage</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #eaf2ff;
+      color: #152744;
+      text-align: center;
+    }
+
+    header {
+      background-color: #152744;
+      color: white;
+      padding: 25px;
+    }
+
+    nav {
+      background-color: #243d63;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .karte {
+      background-color: white;
+      padding: 25px;
+      margin: 20px auto;
+      border-radius: 15px;
+      max-width: 500px;
+      box-shadow: 0 4px 12px #0002;
+    }
+
+    button {
+      background-color: #2563eb;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1745a5;
+    }
+
+    footer {
+      background-color: #152744;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌐 Meine Homepage</h1>
+    <p>Willkommen auf meiner Website!</p>
+  </header>
+
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#hobbys">Hobbys</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <main id="start">
+    <h2>Hallo und willkommen!</h2>
+    <p>Das ist meine erste selbst programmierte Homepage.</p>
+
+    <div class="karte" id="hobbys">
+      <h2>🎮 Meine Hobbys</h2>
+      <p>Gaming, Musik und Programmieren.</p>
+    </div>
+
+    <div class="karte">
+      <h2>💻 Informatik</h2>
+      <p>Ich lerne gerade HTML und CSS!</p>
+
+      <button onclick="hallo()">
+        Klick mich!
+      </button>
+    </div>
+
+    <div class="karte" id="kontakt">
+      <h2>📩 Kontakt</h2>
+      <p>Hier könnte später ein Kontaktformular stehen.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Meine Homepage</p>
+  </footer>
+
+  <script>
+    function hallo() {
+      alert("Hallo! Schön, dass du hier bist!");
+    }
+  </script>
+
+</body>
+</html>
